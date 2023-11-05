@@ -446,6 +446,10 @@ document.getElementById("theme").onclick = function () {
         player.options.theme = "Inverted";
         Chart.defaults.global.defaultFontColor = 'black';
         normalDimChart.data.datasets[0].borderColor = '#000'
+    } else if (player.options.theme === "Starstream") {
+        player.options.theme = "Starstream";
+        Chart.defaults.global.defaultFontColor = 'black';
+        normalDimChart.data.datasets[0].borderColor = '#000'
     } else if (player.options.theme === "Inverted") {
         player.options.theme = "Inverted Metro";
     } else {
