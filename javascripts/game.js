@@ -443,11 +443,11 @@ document.getElementById("theme").onclick = function () {
     } else if (player.options.theme === "Dark") {
         player.options.theme = "Dark Metro";
     } else if (player.options.theme === "Dark Metro") {
-        player.options.theme = "Inverted";
+        player.options.theme = "Starstream";
         Chart.defaults.global.defaultFontColor = 'black';
         normalDimChart.data.datasets[0].borderColor = '#000'
     } else if (player.options.theme === "Starstream") {
-        player.options.theme = "Starstream";
+        player.options.theme = "Inverted";
         Chart.defaults.global.defaultFontColor = 'black';
         normalDimChart.data.datasets[0].borderColor = '#000'
     } else if (player.options.theme === "Inverted") {
