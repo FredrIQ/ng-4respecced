@@ -492,7 +492,13 @@ strong { color: #0072e5 }
 }
 
 
-.EPAmount2, #timeShardAmount, #tickThreshold, #eternalMatter {
+.EPAmount2,
+#timeShardAmount,
+#tickThreshold,
+#eternalMatter,
+#TLSAmount,
+#TLPAmount,
+#TLPPerSecond {
     color: #cc22ff !important;
     font-weight: 500 !important;
 }
